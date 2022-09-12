@@ -5,20 +5,19 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
+	char acharacter;
 	int aninteger;
-	float afloat;
 	long along;
-	char acharacter
 	long long alonglong;
-
-	printf("Size of an int: %lu byte(s)\n", sizeof(aninteger));
-	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
-	printf("Size of a long: %lu byte(s)\n", sizeof(along));
+	float afloat;
+	
 	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
+	printf("Size of an int: %lu byte(s)\n", sizeof(aninteger));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
 	printf("Size of a long long: %lu byte(s)\n", sizeof(alonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
 
-	return (0)
+	return(0);
 }
