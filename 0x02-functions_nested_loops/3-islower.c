@@ -3,6 +3,8 @@
 /**
  * _islower - Checks for a lower case character
  *
+ *@r: The character in ASCII code
+
  * Return: 1 for lowercase character. 0 for the rest.
  */
 int _islower(int r)
