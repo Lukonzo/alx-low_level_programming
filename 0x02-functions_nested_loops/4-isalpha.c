@@ -7,7 +7,7 @@
  *
  * Return: 1 for letters. 0 for the rest.
  */
-int _isalpha(int c)
+int _isalpha(int a)
 {
 	if ((a >= 97 && a <= 122) || (a >= 65 && a <= 90))
 	{
