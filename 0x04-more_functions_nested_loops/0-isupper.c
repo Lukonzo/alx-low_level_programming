@@ -3,13 +3,13 @@
 /**
  * _isupper - Checks for upper case character.
  *
- * @x: input character.
+ * @c: input character.
  *
  * Return: 1 for upper case or 0 otherwise.
  */
-int _isupper(int x)
+int _isupper(int c)
 {
-	if(x => 70 && x <= 102)
+	if(c => 97 && c <= 122)
 	{
 		return (1);
 	}
