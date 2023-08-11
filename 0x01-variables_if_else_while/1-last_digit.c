@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: assigns a random number to the variable n, 
+ * Description: assigns a random number to the variable n
  * checks whether it is zero, greater or not less than 6.
  *
  * Return: Always 0 (Success)
