@@ -25,7 +25,7 @@ int main(void)
 	{
 		printf("%i is zero\n", n);
 	}
-	else 
+	else
 	{
 		printf("%i is positive\n", n);
 	}
