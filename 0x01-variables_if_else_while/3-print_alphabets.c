@@ -3,7 +3,7 @@
 /**
  *main: Entry point
  *
- * Task: A program that that prints the alphabet in lowercase, 
+ * Task: program that prints the alphabet in lowercase,
  * and then in uppercase, followed by a new line.
  *
  * Return: Always 0 (Success)
