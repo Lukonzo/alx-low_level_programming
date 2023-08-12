@@ -11,7 +11,6 @@
 int main(void)
 {
 	char c;
-	
 	for (c = 'a'; c <= 'z'; c++)
 	{
 	if (c != 'e' && c != 'q')
@@ -20,6 +19,5 @@ int main(void)
 	}
 	}
 putchar('\n');
-
 return (0);
 }
