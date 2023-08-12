@@ -5,32 +5,32 @@
 /**
  * main - Entry point
  *
- * Description: assigns a random number to the variable n
- * checks whether it is zero, greater or not less than 6.
+ * Description: print the last digit of the number stored in the variable n
+ * Checks whether it is  greater than 5, 0 or not less than 6.
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n, x;
+	int n, last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	x = n % 10;
+	last_digit = n % 10;
 
-	if (x > 5)
+	if (last_digit > 5)
 	{
-		printf("The last digit of %i is %i and is greater than 5\n", n, x);
+		printf("Last digit of %i is %i and is greater than 5\n", n, last_digit);
 	}
-	else if (x == 0)
+	else if (last_digit == 0)
 	{
-		printf("The last digit of %i is %i and is 0\n", n, x);
+		printf("Last digit of %i is %i and is 0\n", n, last_digit);
 	}
-	else if (x < 6 && x != 0)
+	else if (last_digit < 6 && last_digit != 0)
 	{
-		printf("The last digit of %i is %i and is less than 6 and not 0\n", n, x);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last_digit);
 	}
 
 	return (0);
