@@ -15,7 +15,7 @@ int main(void)
 
 	for (m = '0'; m <= '9'; m++)
 	{
-		for (n = m + 1 ;n <= '9'; n++)
+		for (n = m + 1; n <= '9'; n++)
 		{
 			for (o = n + 1; o <= '9'; o++)
 			{
@@ -32,5 +32,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
