@@ -9,7 +9,7 @@
  * Return: Always o (Success)
  */
 
-int main()
+int main(void)
 {
 	char c = 'a';
 
