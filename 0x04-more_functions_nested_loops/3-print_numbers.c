@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_numbers - function  prints numbers
@@ -11,7 +11,7 @@ void print_numbers(void)
 {
 	int m;
 
-	for (m = 0; m <= 9; m++)
+	for (m = '0'; m <= '9'; m++)
 	{
 		_putchar(m);
 	}
