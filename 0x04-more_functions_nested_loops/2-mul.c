@@ -7,10 +7,10 @@
  * @a: first integer.
  * @b: second integer.
  *
- * Return: result of the multiplication.
+ * Return: a * b
  */
 
 int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
