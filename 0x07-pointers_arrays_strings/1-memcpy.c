@@ -3,8 +3,8 @@
 /**
  * _memcpy - A function that copies memory area.
  *
- * @src: memory source.
  * @dest: memory copied to.
+ * @src: memory source.
  *
  * @n: number of bytes.
  *
