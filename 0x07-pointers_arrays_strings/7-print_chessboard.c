@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_chessboard - function that prints the chessboard.
- * @a: pointer to a two dimensional array.
+ * print_chessboard - prints the chessboard.
+ * @a: array
  *
  * Return: Always 0 (Success)
  */
