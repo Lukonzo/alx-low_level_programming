@@ -6,7 +6,9 @@
  * a string for any of a set of bytes.
  *
  * @s: string.
+ *
  * @accept: string with bytes.
+ *
  * Return: Always 0 (Success)
  */
 
@@ -25,5 +27,6 @@ char *_strpbrk(char *s, char *accept);
 		}
 		s++
 	}
+
 	return (NULL);
 }
