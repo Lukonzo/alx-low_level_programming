@@ -16,7 +16,7 @@ int prime_p(int p, int q)
 	}
 	else if (p == q)
 	{
-		return (1)
+		return (1);
 	}
 	return (prime_p(p, q + 1));
 }
