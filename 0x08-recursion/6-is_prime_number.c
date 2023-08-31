@@ -4,7 +4,7 @@
  * prime_p - main
  *
  * @p: input
- * @r: input
+ * @q: input
  * Return: Always 0.
  */
 
