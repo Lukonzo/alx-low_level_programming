@@ -6,7 +6,7 @@
  * Followed by a new line
  *
  * @argc: input
- * argv: number
+ * @argv: number
  * Return: 0
  */
 
