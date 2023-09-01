@@ -14,7 +14,7 @@
 
 int main(int argc, char *argv[])
 {
-	int mainm, n, mn;
+	int m, n, mn;
 
 	if (argc <= 2)
 	{
