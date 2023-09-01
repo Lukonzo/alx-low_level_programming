@@ -12,7 +12,7 @@
  * Return: Always 0 (Success)
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	int m, n;
 
@@ -25,7 +25,7 @@ char *_strpbrk(char *s, char *accept);
 				return (s);
 			}
 		}
-		s++
+		s++;
 	}
 
 	return (NULL);
