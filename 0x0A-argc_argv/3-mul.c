@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	m = atoi(argv[1]);
-	n = atoi(argv[1]);
+	n = atoi(argv[2]);
 	mn = m * n;
 
 	printf("%d\n", mn);
