@@ -23,8 +23,8 @@ char *create_array(unsigned int size, char c)
 	if (y == NULL)
 		return (NULL);
 
-	for (index = 0; index < size; index++)
-		y[index] = c;
+	for (m = 0; m < size; m++)
+		y[m] = c;
 
 	return (y);
 }
