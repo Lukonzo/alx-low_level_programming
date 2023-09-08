@@ -20,7 +20,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		p = 0;
 	else
 	{
-		for (m = 0; s1[m]; m++)
+		for (p = 0; s1[p]; p++)
 			;
 	}
 	if (s2 == NULL)
@@ -36,7 +36,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (m == NULL)
 		return (NULL);
 	for (r = 0; r < p; r++)
-		m[r] = s1[m];
+		m[r] = s1[r];
 	for (r = 0; r < q; r++)
 		m[r + p] = s2[r];
 	m[p + r] = '\0';
