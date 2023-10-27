@@ -5,8 +5,9 @@
  * bits you would need to get from one to another
  *
  * @n: number
- * @m: number flipped to n.
+ * @m: number flipped to n
  *
+ * Return: number of bits
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
@@ -16,7 +17,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	while (xor_result > 0)
 	{
-		bit_count += xor_result & 1;
+		bit_count += (xor_result & 1);
 		xor_result >>= 1;
 	}
 
